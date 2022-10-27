@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link rel="icon"  type="image/icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/lienhe.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+</head>
+<body>
+    <header id="logo">
+          <div class="header--img">
+            <img src="../img/logo.png" alt="" />
+            <img id="header-img1" src="../img/header-img1.png" alt="" />
+            <img id="header-img2" src="../img/header-img2.png" alt="" />
+            <img id="header-img3" src="../img/header-img3.png" alt="" />
+          </div>
+          <div>
+            <nav>
+              <a class="color" href="../trangchu.html">Trang Chủ</a>
+              <a class="color" href="../project/gioithieu.html">Giới Thiệu</a>
+              <a class="color" href="../project/sanpham.html">Sản Phẩm</a>
+              <a class="color" href="../project/tintuc.html">Tin Tức</a>
+              <a class="color" href="../project/dangnhap.html">Đăng Nhập</a>
+              <a class="color" href="../project/dangky.html">Đăng Ký</a>
+              <a class="color" href="../project/lienhe.html">Liên Hệ</a>
+            </nav>
+            <div class="search">
+              <form method="get" action="./timkiem.html" class="search-box">
+                <input
+                  id="search"
+                  class="search-input"
+                  type="text"
+                  placeholder="Nhập nội dung cần tìm..."
+                  name="search"
+                />
+                <button class="icon1">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+              <button onclick="opencard()" class="icon2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+    </header>
+    <main>
+        <h1 class="title1">Liên Hệ</h1>
+        <div class="empty"></div>
+        <div class="content" >
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+          <p>
+            <b>Địa chỉ: 0123, Tòa Nhà ABC, TP.Cần Thơ</b> Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cảm ơn
+          </p>
+        </div>
+        <div class="title1">Góp Ý</div>
+        <div class="empty"></div>
+        <form class="container" action="#" method="post" enctype="multipart/form-data">
+          <table>
+            <thead>
+                  <tr>
+                      <th></th>
+                      <th></th>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr>
+                      <td class="number1">
+                          <i class="fa-solid fa-user"></i>
+                      </td>
+                      <td>
+                          <input type="text" placeholder="Vui lòng nhập họ tên của bạn" class="container-input"></label>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="number2">
+                          <i class="fa-solid fa-envelope"></i>
+                      </td>
+                      <td>
+                          <input type="email" placeholder="Vui lòng nhập địa chỉ email" class="container-input"></label>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="number1">
+                          <i class="fa-solid fa-bars"></i>
+                      </td>
+                      <td>
+                          <select name="#" id="#" size="1">
+                              <option value="về sản phẩm / dịch vụ">Về Sản Phẩm / Dịch Vụ</option>
+                              <option value="về ưu đãi thành viên">Về Ưu Đãi Thành Viên</option>
+                              <option value="về tin tuyển dụng">Về Tin Tuyển Dụng</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="title">
+                      <td class="number1">
+                          <i class="fa-solid fa-file"></i>
+                      </td>
+                      <td>
+                          <textarea class="container-input" name="#" id="#" cols="50" rows="7" placeholder="Nội dung cần liên hệ"></textarea>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <input type="submit" value="Gửi">
+                      </td>
+                  </tr>
+            </tbody>
+          </table>
+        </form>
+    </main>
+    <footer>
+      <p>
+          &copy 2021 Bản quyền thuộc về FreeezeVN.
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/?lang=vi"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.pinterest.com/"
+            ><i class="fa-brands fa-pinterest"></i
+          ></a>
+      </p>
+      <a class="top" href="#logo">
+          <img src="../img/top.png" alt="" />
+      </a>
+    </footer>
+    <script src="../js/lienhe.js"></script>
+</body>
+</html>

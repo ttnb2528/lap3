@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Ký</title>
+    <link rel="icon" type="image/icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/dangky.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header id="logo">
+        <div class="header--img">
+          <img src="../img/logo.png" alt="" />
+          <img id="header-img1" src="../img/header-img1.png" alt="" />
+          <img id="header-img2" src="../img/header-img2.png" alt="" />
+          <img id="header-img3" src="../img/header-img3.png" alt="" />
+        </div>
+        <div>
+          <nav>
+            <a class="color" href="../trangchu.html">Trang Chủ</a>
+            <a class="color" href="../project/gioithieu.html">Giới Thiệu</a>
+            <a class="color" href="../project/sanpham.html">Sản Phẩm</a>
+            <a class="color" href="../project/tintuc.html">Tin Tức</a>
+            <a class="color" href="../project/dangnhap.html">Đăng Nhập</a>
+            <a class="color" href="../project/dangky.html">Đăng Ký</a>
+            <a class="color" href="../project/lienhe.html">Liên Hệ</a>
+          </nav>
+          <div class="search">
+            <form method="get" action="./timkiem.html" class="search-box">
+              <input
+                id="search"
+                class="search-input"
+                type="text"
+                placeholder="Nhập nội dung cần tìm..."
+                name="search"
+              />
+              <button class="icon1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <button onclick="opencard()" class="icon2">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <h1 class="title1">ĐĂNG KÝ</h1>
+      <div class="empty"></div>
+      <form
+        class="container"
+        action="#"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <table>
+          <thead>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="input">
+              <td class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Vui lòng nhập email"
+                  class="container-input"
+                />
+              </td>
+            </tr>
+            <tr class="input">
+              <td class="icon">
+                <i class="fa-solid fa-key"></i>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  name="pwd"
+                  placeholder="Vui lòng nhập mật khẩu"
+                  class="container-input"
+                />
+              </td>
+            </tr>
+            <tr class="input">
+              <td class="icon">
+                <i class="fa-solid fa-key"></i>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  name="pwd2"
+                  placeholder="Vui lòng nhập mật khẩu"
+                  class="container-input"
+                />
+              </td>
+            </tr>
+            <tr class="input">
+              <td class="icon3">
+                <i class="fa-solid fa-users"></i>
+              </td>
+              <td>
+                <input type="radio" name="memberType" /><b>Bạc</b>
+                <input type="radio" name="memberType" /><b>Vàng</b>
+                <input type="radio" name="memberType" /><b>Bạch Kim</b>
+              </td>
+            </tr>
+            <tr class="input">
+              <td class="icon4">
+                <i class="fa-solid fa-image-portrait"></i>
+              </td>
+              <td>
+                <input type="file" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <b
+                  >Thông qua việc tạo tài khoản, bạn đồng ý với
+                  <a href="#">Điều khoản & Quyền riêng tư của chúng tôi</a>.</b
+                >
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="reset" value="Hủy" /><input
+                  type="submit"
+                  value="Đăng Ký"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
+    <footer>
+      <p>
+        &copy 2021 Bản quyền thuộc về FreeezeVN.
+        <a href="https://www.facebook.com"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://twitter.com/?lang=vi"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.pinterest.com/"
+          ><i class="fa-brands fa-pinterest"></i
+        ></a>
+      </p>
+      <a class="top" href="#logo">
+        <img src="../img/top.png" alt="" />
+      </a>
+    </footer>
+    <script src="../js/dangky.js"></script>
+  </body>
+</html>

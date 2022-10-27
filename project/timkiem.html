@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tìm kiếm</title>
+    <link rel="icon" type="image/icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/timkiem.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="logo">
+      <div class="header--img">
+        <img src="../img/logo.png" alt="" />
+        <img id="header-img1" src="../img/header-img1.png" alt="" />
+        <img id="header-img2" src="../img/header-img2.png" alt="" />
+        <img id="header-img3" src="../img/header-img3.png" alt="" />
+      </div>
+      <div>
+        <nav>
+          <a class="color" href="../trangchu.html">Trang Chủ</a>
+          <a class="color" href="../project/gioithieu.html">Giới Thiệu</a>
+          <a class="color" href="../project/sanpham.html">Sản Phẩm</a>
+          <a class="color" href="../project/tintuc.html">Tin Tức</a>
+          <a class="color" href="../project/dangnhap.html">Đăng Nhập</a>
+          <a class="color" href="../project/dangky.html">Đăng Ký</a>
+          <a class="color" href="../project/lienhe.html">Liên Hệ</a>
+        </nav>
+        <div class="search">
+          <form method="get" action="./timkiem.html" class="search-box">
+            <input
+              id="search"
+              class="search-input"
+              type="text"
+              placeholder="Nhập nội dung cần tìm..."
+              name="search"
+            />
+            <button class="icon1">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button onclick="opencard()" class="icon2">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>TỪ KHÓA TÌM KIẾM</h1>
+      <div class="empty"></div>
+      <p class="search-data"></p>
+    </main>
+    <footer>
+      <p>
+        &copy 2021 Bản quyền thuộc về FreeezeVN.
+        <a href="https://www.facebook.com"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://twitter.com/?lang=vi"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.pinterest.com/"
+          ><i class="fa-brands fa-pinterest"></i
+        ></a>
+      </p>
+      <a class="top" href="#logo">
+        <img src="../img/top.png" alt="" />
+      </a>
+    </footer>
+    <script src="../js/timkiem.js"></script>
+  </body>
+</html>
